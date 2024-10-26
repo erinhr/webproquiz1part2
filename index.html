@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        .profile-section {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .profile-section div {
+            margin: 0 10px;
+        }
+        .skills-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        .skills-table th, .skills-table td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        .contact-form input[type="submit"] {
+            padding: 8px 16px;
+            background-color: #af4c8e;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #1507da;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>mY PrOFIlE</h1>
+
+    <div class="profile-section">
+        <div>
+            <p>pRoFilE PIc</p>
+            <img src="assets/eyin.jpeg" height="300" alt="">
+        </div>
+        <div>
+            <p>iNTroDuction VideO</p>
+            <video controls height="300" width="560">
+                <source src="assets/disney.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <h2>abOut Me</h2>
+    <p>Halo! I am a self-taught UI/UX Designer based in Jakarta with extensive design experience. I am currently living in Jakarta and pursuing a degree in Informatics @ Telkom University Jakarta.</p>
+    <h2>Skills</h2>
+    <table class="skills-table">
+        <tr>
+            <th>Skills</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>Figma</td>
+            <td>Pro</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Mid</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Newbie</td>
+        </tr>
+    </table>
+
+    <h2>ConTaCt mE</h2>
+    <form class="contact-form">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        
+        <input type="submit" value="Send Message">
+    </form>
+
+    <div class="social-links">
+        <h2>Media Sosial:</h2>
+        <a href="https://LinkedIn/erinharyani">LinkedIn</a> |
+        <a href="https://github.com/erinhr">GitHub</a> |
+        <a href="https://instagram.com/aiueyin">Instagram</a>
+    </div>
+</div>
+
+</body>
+</html>
